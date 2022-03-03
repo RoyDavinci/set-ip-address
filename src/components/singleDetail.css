@@ -1,0 +1,9 @@
+@media screen and (min-width: 800px) {
+	section {
+		border-right: 1px solid #ccc;
+	}
+}
+
+h1 {
+	font-size: 1rem;
+}

@@ -1,13 +1,33 @@
-body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+@import url("https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@400;600&family=Rubik:wght@400;500;700&family=Spartan:wght@500;600;700&display=swap");
+
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+body {
+	font-family: "Kumbh Sans", sans-serif;
+	font-family: "Rubik", sans-serif;
+	font-family: "Spartan", sans-serif;
+	font-size: 18px;
+}
+
+input,
+input:hover,
+input:focus,
+button:focus,
+button {
+	border: none;
+	outline: none;
+	background: none;
+}
+a {
+	text-decoration: none;
+}
+ul {
+	list-style: none;
+}
+button {
+	cursor: pointer;
 }
